@@ -427,12 +427,11 @@
   },
   "libraries": {
     "AvalonEdit/5.0.3": {
-      "sha512": "O7qf3H3SP2VrQujwmzvb3hJ+lw4rNWcZkpMH8T0qb/cA1UccoJIZ9qL/+DM7bws9l8Hxnyk7GUYVFrCSZeH+uA==",
+      "sha512": "L5CgXRniZRxI/tjoBztVgZnvTL1F/qKrRJa+Q88I0Gl78WRNaqdMkuOlkAsOHTauBGZSQNDO0/X+xIpzfzmLdQ==",
       "type": "package",
       "path": "avalonedit/5.0.3",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "avalonedit.5.0.3.nupkg.sha512",
         "avalonedit.nuspec",
         "lib/Net35/ICSharpCode.AvalonEdit.dll",
@@ -442,12 +441,11 @@
       ]
     },
     "BouncyCastle/1.8.1": {
-      "sha512": "YfrAJKshKEio6Zsz6x+juAOs3l5p+DeHPD8Z6dwy+taXx+ChRE8qrVd4Xj2OwfeccmrK+UXJYs/SgW7lMlCf/w==",
+      "sha512": "nH+P67LavO5EcxjKdBxFfRdfdFhivS3Xp3+0br1KcpCI8DM6ksCWy6YYZjk7XFV+VsHGtkUovwIZ/vmCp42geA==",
       "type": "package",
       "path": "bouncycastle/1.8.1",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "Readme.txt",
         "bouncycastle.1.8.1.nupkg.sha512",
         "bouncycastle.nuspec",
@@ -471,12 +469,11 @@
       ]
     },
     "CsvHelper/2.13.5": {
-      "sha512": "Y3SQyxU86+V5sZm6X93ko3kToYbiGLcVYW5tvK8rrrk5b1lvw2Nh5NewUJmkw0gMRHF+jANi7pGnb5p+4rVPOw==",
+      "sha512": "fC8DPi/YTcZ8uXFiAeuT9EpsR2TE5cSJ2jg/4tht/Oen6az/djebpYoCQEtI33RfNrSZ533SedOknlWtUTX3fw==",
       "type": "package",
       "path": "csvhelper/2.13.5",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "csvhelper.2.13.5.nupkg.sha512",
         "csvhelper.nuspec",
         "lib/net20/CsvHelper.dll",
@@ -494,21 +491,21 @@
       ]
     },
     "DocumentFormat.OpenXml/2.5.0": {
-      "sha512": "HVm+R+33rfzRK0gtXBOIjTT8GoD2mZ7CZWbvELD3qMOov8j3dPDtyll6mtgjYxolMJUs/rzNmzfM2ByyN9q0cQ==",
+      "sha512": "H5jnox0hcLwzAjrpNqDPIItjh7dplF1kk1z8LatpI2h75wBgps1MepEttJFKs7xedQReCMHA0tGpNI0H2B+Mrg==",
       "type": "package",
       "path": "documentformat.openxml/2.5.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "documentformat.openxml.2.5.0.nupkg.sha512",
         "documentformat.openxml.nuspec",
         "lib/DocumentFormat.OpenXml.dll"
       ]
     },
     "Extended.Wpf.Toolkit/2.8.0": {
-      "sha512": "YzLQ/sB91g0gRftvlPGOqYJe6TwiPTQoYhO+4ZSsnxaMEQZ5KZIQySTtsTWZ0HJC5+xrgk1Z/if7kjY4cSRPdw==",
+      "sha512": "wKjJl4sDyXTVzgiKTBTw8jT0/3OwpEklQuWGe1Nz2HX0joiBeUzIurY2mnERni+8XHwateRcuks6yk/cuR22fA==",
       "type": "package",
       "path": "extended.wpf.toolkit/2.8.0",
+      "hasTools": true,
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -536,7 +533,7 @@
       ]
     },
     "Humanizer.Core/2.4.2": {
-      "sha512": "A8amPZrfrFU+6BO+t/NLejofWah39XsRuovQqaHdYYtXANM+dexMrc+AbLmuH3qNV4hJv6FArBsBBtZcaODLZg==",
+      "sha512": "1ZKy7LHVYuhmM398hpvyWCcc2Fcx+hqiGYASELDthjWhVrsA6IabYnHRfkQFF6nGG6x4fA1D0StDX/U2Pj+FdQ==",
       "type": "package",
       "path": "humanizer.core/2.4.2",
       "files": [
@@ -562,7 +559,7 @@
       ]
     },
     "Microsoft.AspNet.SignalR.Client/2.4.0": {
-      "sha512": "kQN+HGGrZqSjpQUdVwlV4DJVsvx6wKo8J5hu/pcsdIaQ/LGEnCSQSRpq5BV7+iCq0MwEAHEZvrnivWDe0j9xfg==",
+      "sha512": "xGoQq9dEsBU49U1Whl0To2JyRQePmo8ayYS8VNruLlQaX+fQBzYyLJeMlW9r7mlt8Vc9JP+083m9pKrfYpdDbg==",
       "type": "package",
       "path": "microsoft.aspnet.signalr.client/2.4.0",
       "files": [
@@ -585,12 +582,11 @@
       ]
     },
     "Microsoft.Exchange.WebServices/2.2.0": {
-      "sha512": "x7E4IO1+hSS1QDywAhwUxWMK9vyS46uvVJ8mCfjj4AqGPImuUhn+FmrLYfgxRSQ367brWQwAwVoi38mv6soiJQ==",
+      "sha512": "NlkaTD0uWtg9VbiWq0VDWMBPzHFknH3tmstrxt0acrT09LBGqATTjRpsGOODz6tUdX7/dehBinxsf75U5Uw/+A==",
       "type": "package",
       "path": "microsoft.exchange.webservices/2.2.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "doc/License Terms.rtf",
         "doc/README.htm",
         "doc/Redist.txt",
@@ -605,7 +601,7 @@
       ]
     },
     "Microsoft.Rest.ClientRuntime/2.3.10": {
-      "sha512": "a30J6t7LRkYx974tLaRnJc/dYZ1M7uhc5vdgULxdhL7HJNJydG7e+jyAVD15gK+vFR1i9MH+5Ch9t1zhb/Lp1g==",
+      "sha512": "JO9CzV1hvjtrIzq06gJ5nNv7GV24Xz3Y3O9vx7fCe7ndNA0NmD3fZ9JUgFir2UvJ2/+9vvCo/6RXjyfywvQQIw==",
       "type": "package",
       "path": "microsoft.rest.clientruntime/2.3.10",
       "files": [
@@ -634,12 +630,11 @@
       ]
     },
     "Newtonsoft.Json/11.0.2": {
-      "sha512": "znZGbws7E4BA9jxNZ7FuiIRI3C9hrgatVQSTKhIYZYNOud4M5VfGlTYi6RdYO5sQrebFuF/g9UEV3hOxDMXF6Q==",
+      "sha512": "IvJe1pj7JHEsP8B8J8DwlMEx8UInrs/x+9oVY+oCD13jpLu4JbJU2WCIsMRn5C4yW9+DgkaO8uiVE5VHKjpmdQ==",
       "type": "package",
       "path": "newtonsoft.json/11.0.2",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "LICENSE.md",
         "lib/net20/Newtonsoft.Json.dll",
         "lib/net20/Newtonsoft.Json.xml",
@@ -664,12 +659,11 @@
       ]
     },
     "NPOI/2.4.1": {
-      "sha512": "k6KgsGWQpODQcIo7SwTw4j0be6qILTQlk7xKMEPQjp1Bz3+YaUZSvQ/ePG5vcLKnzGDgGGN1TccvYccmrZU53g==",
+      "sha512": "85790/CY9z4DCU1KLpcdLSqaqaqmQOenTqXJfcsYK8LIKNAAoTgjT5LYLbORgdwAd63sbaJiCfB1SIn/dAXrJw==",
       "type": "package",
       "path": "npoi/2.4.1",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "LICENSE",
         "Read Me.txt",
         "lib/NPOI.xml",
@@ -698,12 +692,11 @@
       ]
     },
     "SharpZipLib/1.0.0": {
-      "sha512": "38egGevtPMQn/6olZZUteKUC7+BD47LdCGKo9Vyj17+HWDwiqPXsyJu55q9WSybhwVKwt0q2FLhiuJjZfQpsHw==",
+      "sha512": "YuYztmY3jEb21F6e5LIPHJjApdtzdCPQ284UzsCKNfkgW71bukFHJES6RbKi+wm053XzFg0LX5/2vj/9gl8F/g==",
       "type": "package",
       "path": "sharpziplib/1.0.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "lib/net45/ICSharpCode.SharpZipLib.dll",
         "lib/net45/ICSharpCode.SharpZipLib.xml",
         "lib/netstandard2.0/ICSharpCode.SharpZipLib.dll",
@@ -713,7 +706,7 @@
       ]
     },
     "UiPath/19.4.7054.14370": {
-      "sha512": "za0uvAKVVbcVEteSzG21WAzF05oH+MyfNPu5Q9aRaW1I8tmLhmh2zXirS30TlXtZsymHjC3PX2c67hEgZCk2OQ==",
+      "sha512": "qXeg8GE4VIdF49LN82h1jbuvDJ/z2n2WE1/eHxDX1z32N8V+yXSj2avB7K+ttxabRNXE0rLmyYimyD/kwNEBmQ==",
       "type": "package",
       "path": "uipath/19.4.7054.14370",
       "files": [
@@ -766,7 +759,7 @@
       ]
     },
     "UiPath.Excel.Activities/2.5.3": {
-      "sha512": "Gy4p/OYR93GpqO1pzpoIiCwPEP5CMJ9vWzbIMwFlGwSrb1B4SVltgaCt1RnBNSxSBpYhFtC9kkoSsKHAHFsWbA==",
+      "sha512": "HjoN8J1iFeSDfqEtEYfJoAEFUjW+Ff+ZaZ5Uko2myuLfGoVm3AOJT+9AgFM0f2gWi0Rte4CL8eJkaY/3/BTEqQ==",
       "type": "package",
       "path": "uipath.excel.activities/2.5.3",
       "files": [
@@ -789,7 +782,7 @@
       ]
     },
     "UiPath.Mail.Activities/1.4.0": {
-      "sha512": "eKOz8UBFThOuNVIBBDgiteJuuY0iO2yATAZPQgSZ2cYZqoYPyeQpjSEJBYti/SleNDQCDPLl8UCFki9zLdQ6vA==",
+      "sha512": "f5TT4rR4qAzXhdj9R9saq3jRQfDy/lw2AtQvpsi+Zg7rZS50g6y435NH1iaenmvGG2x1YAs75gsDw8SGjlt0/A==",
       "type": "package",
       "path": "uipath.mail.activities/1.4.0",
       "files": [
@@ -816,7 +809,7 @@
       ]
     },
     "UiPath.System.Activities/19.4.0": {
-      "sha512": "QhTnT1B2RzWJduPyrgqe0sLKjh5cIUxMe1hNgOeITGEQWlUnjfUowM3sHHi58AhmFNhuL7GABZrMyA09+4O4Jw==",
+      "sha512": "fXSotFDKhr+MzeVtatPExda3tVsR0P/RRIvOVQaosqiMH/FnTxUlzP9ME95/OXq4LA3Yiw+LK/m+yclMJkBfZA==",
       "type": "package",
       "path": "uipath.system.activities/19.4.0",
       "files": [
@@ -846,7 +839,7 @@
       ]
     },
     "UiPath.UIAutomation.Activities/19.4.1": {
-      "sha512": "BfmMTCI47VVsiQb/V5ezSf9hoy0w68njrc3hLrcFrjaYJMewIMIt+ss774LJn6+qg9fXz2wuvcaD4ySPQGxxAg==",
+      "sha512": "r7EKkvcj+jCiSVjqXyqTC/7xXjOIgjK2gz8hG16GdHrYtUw/6vb+sC1z9+FLTp/JmuKOlYRo75iQXhoB6XDfEw==",
       "type": "package",
       "path": "uipath.uiautomation.activities/19.4.1",
       "files": [
@@ -906,7 +899,7 @@
       ]
     },
     "UiPath.Vision/1.5.0": {
-      "sha512": "Di+6HFEcugmq38ueNfkBJ0hvtOVW/zFL8YFZi+PytaDyRpY3RGgMXYczj6V7FbmgfBDbQvMiwj26/X6P1s/J3g==",
+      "sha512": "SJ6XfVob64xnONBQvMjtRDEoQzfvdI19EYWmuhRvTs55TvRAaYaxw3KH40NLJ3Xp+2hG3HSaRNxNd/df5mDW6Q==",
       "type": "package",
       "path": "uipath.vision/1.5.0",
       "files": [
@@ -992,15 +985,15 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\lsto1\\.nuget\\packages\\": {}
+    "C:\\Users\\Marcello\\.nuget\\packages\\": {}
   },
   "project": {
     "restore": {
       "projectUniqueName": "POCSenado01",
       "projectName": "POCSenado01",
-      "projectPath": "C:\\Users\\lsto1\\Documents\\UiPath\\gitglobal\\POCSenado01\\.local",
-      "packagesPath": "C:\\Users\\lsto1\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lsto1\\Documents\\UiPath\\gitglobal\\POCSenado01\\.local"
+      "projectPath": "D:\\Documentos\\GitHub\\gitglobal\\POCSenado01\\.local",
+      "packagesPath": "C:\\Users\\Marcello\\.nuget\\packages\\",
+      "outputPath": "D:\\Documentos\\GitHub\\gitglobal\\POCSenado01\\.local"
     },
     "frameworks": {
       "net461": {
