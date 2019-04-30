@@ -993,15 +993,15 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\lsto1\\.nuget\\packages\\": {}
+    "C:\\Users\\Marcello\\.nuget\\packages\\": {}
   },
   "project": {
     "restore": {
       "projectUniqueName": "POCSenado01",
       "projectName": "POCSenado01",
-      "projectPath": "C:\\Users\\lsto1\\Documents\\UiPath\\gitglobal\\POCSenado01\\.local",
-      "packagesPath": "C:\\Users\\lsto1\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lsto1\\Documents\\UiPath\\gitglobal\\POCSenado01\\.local"
+      "projectPath": "D:\\Documentos\\GitHub\\gitglobal\\POCSenado01\\.local",
+      "packagesPath": "C:\\Users\\Marcello\\.nuget\\packages\\",
+      "outputPath": "D:\\Documentos\\GitHub\\gitglobal\\POCSenado01\\.local"
     },
     "frameworks": {
       "net461": {
@@ -1029,5 +1029,14 @@
         }
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU3034",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.AspNet.SignalR.Client 2.4.0' from source 'C:\\Users\\Marcello\\AppData\\Local\\UiPath\\app-19.4.2\\Packages': This package is signed but not by a trusted signer.",
+      "libraryId": "Microsoft.AspNet.SignalR.Client"
+    }
+  ]
 }
