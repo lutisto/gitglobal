@@ -254,6 +254,21 @@
                       <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="b36b598aa47f81ffe84167c42c3491c5" Selector="&lt;html title='Senado Federal - Cadastro WEB' /&gt;&lt;webctrl id='cmdEmitir' tag='INPUT' /&gt;" WaitForReady="COMPLETE" />
                     </ui:Click.Target>
                   </ui:Click>
+                  <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click campo Para" sap2010:WorkflowViewState.IdRef="Click_19" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="False">
+                    <ui:Click.CursorPosition>
+                      <ui:CursorPosition Position="Center">
+                        <ui:CursorPosition.OffsetX>
+                          <InArgument x:TypeArguments="x:Int32" />
+                        </ui:CursorPosition.OffsetX>
+                        <ui:CursorPosition.OffsetY>
+                          <InArgument x:TypeArguments="x:Int32" />
+                        </ui:CursorPosition.OffsetY>
+                      </ui:CursorPosition>
+                    </ui:Click.CursorPosition>
+                    <ui:Click.Target>
+                      <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="31127c1e6e377404cc949e90766d42f0" Selector="&lt;html title='Senado Federal - Cadastro WEB' /&gt;&lt;webctrl id='txtPara' tag='TEXTAREA' /&gt;" WaitForReady="INTERACTIVE" />
+                    </ui:Click.Target>
+                  </ui:Click>
                   <ui:SendHotkey DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" Activate="True" ClickBeforeTyping="False" DisplayName="Send Hotkey 'seleciona todos emails'" EmptyField="False" sap2010:WorkflowViewState.IdRef="SendHotkey_1" Key="end" KeyModifiers="Ctrl, Shift" SendWindowMessages="False" SpecialKey="True">
                     <ui:SendHotkey.Target>
                       <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="6ea9a9a86e10881b173e6f74f98777d2" Selector="&lt;html title='Senado Federal - Cadastro WEB' /&gt;&lt;webctrl id='txtPara' tag='TEXTAREA' /&gt;" WaitForReady="INTERACTIVE" />
@@ -264,7 +279,67 @@
                       <OutArgument x:TypeArguments="ui:GenericValue">[all_emails]</OutArgument>
                     </ui:CopySelectedText.Result>
                   </ui:CopySelectedText>
-                  <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" Buttons="Ok" DisplayName="Message Box" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[all_emails]" TopMost="True" />
+                  <ui:WriteTextFile DisplayName="Gera arquivo com emails" FileName="emails.txt" sap2010:WorkflowViewState.IdRef="WriteTextFile_1" Text="[all_emails]" />
+                  <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click Arquivo" sap2010:WorkflowViewState.IdRef="Click_20" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="False">
+                    <ui:Click.CursorPosition>
+                      <ui:CursorPosition Position="Center">
+                        <ui:CursorPosition.OffsetX>
+                          <InArgument x:TypeArguments="x:Int32" />
+                        </ui:CursorPosition.OffsetX>
+                        <ui:CursorPosition.OffsetY>
+                          <InArgument x:TypeArguments="x:Int32" />
+                        </ui:CursorPosition.OffsetY>
+                      </ui:CursorPosition>
+                    </ui:Click.CursorPosition>
+                    <ui:Click.Target>
+                      <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="4f87d9c1098c3b5d28acd987dffccbff" Selector="&lt;html title='Senado Federal - Cadastro WEB' /&gt;&lt;webctrl id='WebUserCabecalho1_mnuServicos' tag='TABLE' /&gt;&lt;webctrl id='WebUserCabecalho1_mnuServicos-menuItem000' tag='TD' /&gt;" WaitForReady="INTERACTIVE" />
+                    </ui:Click.Target>
+                  </ui:Click>
+                  <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click Sair" sap2010:WorkflowViewState.IdRef="Click_21" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="False">
+                    <ui:Click.CursorPosition>
+                      <ui:CursorPosition Position="Center">
+                        <ui:CursorPosition.OffsetX>
+                          <InArgument x:TypeArguments="x:Int32" />
+                        </ui:CursorPosition.OffsetX>
+                        <ui:CursorPosition.OffsetY>
+                          <InArgument x:TypeArguments="x:Int32" />
+                        </ui:CursorPosition.OffsetY>
+                      </ui:CursorPosition>
+                    </ui:Click.CursorPosition>
+                    <ui:Click.Target>
+                      <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="5e2961923b08b208fe95e2a98a347a0b" Selector="&lt;html title='Senado Federal - Cadastro WEB' /&gt;&lt;webctrl id='WebUserCabecalho1_mnuServicos-menuItem000-subMenu' tag='TABLE' /&gt;&lt;webctrl id='WebUserCabecalho1_mnuServicos-menuItem000-subMenu-menuItem003' tag='TD' /&gt;" WaitForReady="INTERACTIVE" />
+                    </ui:Click.Target>
+                  </ui:Click>
+                  <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click Fechar browser" sap2010:WorkflowViewState.IdRef="Click_22" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="False">
+                    <ui:Click.CursorPosition>
+                      <ui:CursorPosition Position="Center">
+                        <ui:CursorPosition.OffsetX>
+                          <InArgument x:TypeArguments="x:Int32" />
+                        </ui:CursorPosition.OffsetX>
+                        <ui:CursorPosition.OffsetY>
+                          <InArgument x:TypeArguments="x:Int32" />
+                        </ui:CursorPosition.OffsetY>
+                      </ui:CursorPosition>
+                    </ui:Click.CursorPosition>
+                    <ui:Click.Target>
+                      <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="037b635fcb1d2cc5c2795f556c5bb844" Selector="&lt;html title='CDWSair' /&gt;&lt;webctrl id='Button1' tag='INPUT' /&gt;" WaitForReady="INTERACTIVE" />
+                    </ui:Click.Target>
+                  </ui:Click>
+                  <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'Sim' confirmar fechar browser" sap2010:WorkflowViewState.IdRef="Click_23" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="False">
+                    <ui:Click.CursorPosition>
+                      <ui:CursorPosition Position="Center">
+                        <ui:CursorPosition.OffsetX>
+                          <InArgument x:TypeArguments="x:Int32" />
+                        </ui:CursorPosition.OffsetX>
+                        <ui:CursorPosition.OffsetY>
+                          <InArgument x:TypeArguments="x:Int32" />
+                        </ui:CursorPosition.OffsetY>
+                      </ui:CursorPosition>
+                    </ui:Click.CursorPosition>
+                    <ui:Click.Target>
+                      <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="87a8d9abace64cc681597296e34ae2ad" Selector="&lt;wnd app='iexplore.exe' cls='#32770' title='Windows Internet Explorer' /&gt;&lt;wnd ctrlid='6' title='&amp;amp;Sim' /&gt;" WaitForReady="INTERACTIVE" />
+                    </ui:Click.Target>
+                  </ui:Click>
                 </Sequence>
               </FlowStep>
             </FlowStep.Next>
@@ -275,7 +350,7 @@
     <x:Reference>__ReferenceID0</x:Reference>
     <x:Reference>__ReferenceID1</x:Reference>
     <x:Reference>__ReferenceID2</x:Reference>
-    <sads:DebugSymbol.Symbol>dz9DOlxVc2Vyc1xsc3RvMVxEb2N1bWVudHNcVWlQYXRoXGdpdGdsb2JhbFxQT0NTZW5hZG8wMVxNYWluLnhhbWxIPwOXAg8CAQFCCWsUAgE+bg2JARgCAS+MARGMAhwCAQJEOkREAgFARTpFRwIBP0cLahwCAUFvD3MdAgE7dA94HQIBOHkPgAEaAgE0gQEPiAEaAgEwkAETlwEeAgErmAETnwEeAgEnoAET0wEjAgEj1AET2wEeAgEf3AET4wEeAgEb5AET6AEeAgEY6QET8AEeAgEU8QET+AEeAgEQ+QETgAIeAgEMgQIThQIjAgEJhgITigIpAgEFiwITiwLIAQIBA0fZAUeBAgIBTU0RZxwCAUJxogFxiwICAT1vqgJvtAICATx2ogF2iwICATp0qgJ0twICATl+ogF+iwICATd7O3s/AgE2ey57MgIBNYYBogGGAY0CAgEzgwE8gwFAAgEygwEugwEzAgExlQGmAZUB2wICAS6SAT+SAUMCAS2SATKSATYCASydAaYBnQGDAwIBKpoBP5oBQwIBKZoBMpoBNgIBKKABzwGgAeQBAgEl0QGmAdEBjQICASbZAaYB2QGIAgIBItYBQNYBRAIBIdYBMtYBNwIBIOEBpgHhAdcCAgEe3gE/3gFDAgEd3gEy3gE2AgEc5gGmAeYBpgICARruAaYB7gGWAgIBF+sBP+sBQwIBFusBMusBNgIBFfYBpgH2AYsCAgET8wE/8wFDAgES8wEy8wE2AgER/gGmAf4BiAICAQ/7AT/7AUMCAQ77ATL7ATYCAQ2DAqYBgwKJAgIBC4ECiwKBApACAgEKhgKjAYYCqQECAQiIAkaIAlICAQaLAqgBiwK2AQIBBE4TUiECAUlTE1cnAgFFWBNmHgIBQ1CmAVCwAgIBTE6vAk7NAgIBSlWmAVXxAgIBSFOQAlPWAgIBRmSmAWStAgIBRA==</sads:DebugSymbol.Symbol>
+    <sads:DebugSymbol.Symbol>dz9DOlxVc2Vyc1xsc3RvMVxEb2N1bWVudHNcVWlQYXRoXGdpdGdsb2JhbFxQT0NTZW5hZG8wMVxNYWluLnhhbWxTPwPiAg8CAQFCCWsUAgFJbg2JARgCATqMARHXAhwCAQJEOkREAgFLRTpFRwIBSkcLahwCAUxvD3MdAgFGdA94HQIBQ3kPgAEaAgE/gQEPiAEaAgE7kAETlwEeAgE2mAETnwEeAgEyoAET0wEjAgEu1AET2wEeAgEq3AET4wEeAgEm5AET6AEeAgEj6QET8AEeAgEf8QET+AEeAgEb+QETgAIeAgEXgQITjwIeAgEVkAITlAIjAgESlQITmQIpAgEOmgITmgKpAQIBC5sCE6kCHgIBCaoCE7gCHgIBB7kCE8cCHgIBBcgCE9YCHgIBA0fZAUeBAgIBWE0RZxwCAU1xogFxiwICAUhvqgJvtAICAUd2ogF2iwICAUV0qgJ0twICAUR+ogF+iwICAUJ7O3s/AgFBey57MgIBQIYBogGGAY0CAgE+gwE8gwFAAgE9gwEugwEzAgE8lQGmAZUB2wICATmSAT+SAUMCATiSATKSATYCATedAaYBnQGDAwIBNZoBP5oBQwIBNJoBMpoBNgIBM6ABzwGgAeQBAgEw0QGmAdEBjQICATHZAaYB2QGIAgIBLdYBQNYBRAIBLNYBMtYBNwIBK+EBpgHhAdcCAgEp3gE/3gFDAgEo3gEy3gE2AgEn5gGmAeYBpgICASXuAaYB7gGWAgIBIusBP+sBQwIBIesBMusBNgIBIPYBpgH2AYsCAgEe8wE/8wFDAgEd8wEy8wE2AgEc/gGmAf4BiAICARr7AT/7AUMCARn7ATL7ATYCARiNAqYBjQKJAgIBFpICpgGSAokCAgEUkAKLApACkAICAROVAqMBlQKpAQIBEZcCRpcCUgIBD5oCmAGaAqYBAgENmgJUmgJgAgEMpwKmAacC5QICAQq2AqYBtgKNAwIBCMUCpgHFAvABAgEG1AKmAdQCpAICAQROE1IhAgFUUxNXJwIBUFgTZh4CAU5QpgFQsAICAVdOrwJOzQICAVVVpgFV8QICAVNTkAJT1gICAVFkpgFkrQICAU8=</sads:DebugSymbol.Symbol>
   </Flowchart>
   <sap2010:WorkflowViewState.ViewStateManager>
     <sap2010:ViewStateManager>
@@ -317,9 +392,14 @@
       <sap2010:ViewStateData Id="Click_16" sap:VirtualizedContainerService.HintSize="314.4,107.2" />
       <sap2010:ViewStateData Id="Click_17" sap:VirtualizedContainerService.HintSize="314.4,107.2" />
       <sap2010:ViewStateData Id="Click_18" sap:VirtualizedContainerService.HintSize="314.4,107.2" />
+      <sap2010:ViewStateData Id="Click_19" sap:VirtualizedContainerService.HintSize="314.4,107.2" />
       <sap2010:ViewStateData Id="SendHotkey_1" sap:VirtualizedContainerService.HintSize="314.4,156" />
       <sap2010:ViewStateData Id="CopySelectedText_1" sap:VirtualizedContainerService.HintSize="314.4,22.4" />
-      <sap2010:ViewStateData Id="MessageBox_1" sap:VirtualizedContainerService.HintSize="314.4,60" />
+      <sap2010:ViewStateData Id="WriteTextFile_1" sap:VirtualizedContainerService.HintSize="314.4,88" />
+      <sap2010:ViewStateData Id="Click_20" sap:VirtualizedContainerService.HintSize="314.4,107.2" />
+      <sap2010:ViewStateData Id="Click_21" sap:VirtualizedContainerService.HintSize="314.4,107.2" />
+      <sap2010:ViewStateData Id="Click_22" sap:VirtualizedContainerService.HintSize="314.4,107.2" />
+      <sap2010:ViewStateData Id="Click_23" sap:VirtualizedContainerService.HintSize="314.4,107.2" />
       <sap2010:ViewStateData Id="Sequence_11" sap:VirtualizedContainerService.HintSize="200,52.8">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -363,7 +443,7 @@
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
-      <sap2010:ViewStateData Id="ActivityBuilder_1" sap:VirtualizedContainerService.HintSize="654.4,716.8" />
+      <sap2010:ViewStateData Id="ActivityBuilder_1" sap:VirtualizedContainerService.HintSize="654.4,756.8" />
     </sap2010:ViewStateManager>
   </sap2010:WorkflowViewState.ViewStateManager>
 </Activity>
