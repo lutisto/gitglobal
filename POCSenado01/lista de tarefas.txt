@@ -1,0 +1,14 @@
+1 - ler a lista (arquivo txt) de e-mails
+2 - a cada item, gerar um assunto com código identificador do fornecedor
+3 - guardar em Excel o endereço de e-mail + código gerado
+
+Sequence para enviar os e-mails a partir do Excel, pelo Outlook
+1 - Ler o arquivo Excel
+2 - enviar o e-mail
+
+Leitura da caixa de correio do Outlook
+
+1 - identificar se o e-mail é de interesse
+2 - tratar o retorno verificando o código do assunto
+3 - apagar o e-mail ou mover para uma pasta de tratados pelo Robo
+

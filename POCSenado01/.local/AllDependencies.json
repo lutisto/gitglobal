@@ -985,15 +985,15 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\lsto1\\.nuget\\packages\\": {}
+    "C:\\Users\\Marcello\\.nuget\\packages\\": {}
   },
   "project": {
     "restore": {
       "projectUniqueName": "POCSenado01",
       "projectName": "POCSenado01",
-      "projectPath": "C:\\Users\\lsto1\\Documents\\UiPath\\gitglobal\\POCSenado01\\.local",
-      "packagesPath": "C:\\Users\\lsto1\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lsto1\\Documents\\UiPath\\gitglobal\\POCSenado01\\.local"
+      "projectPath": "D:\\Documentos\\GitHub\\gitglobal\\POCSenado01\\.local",
+      "packagesPath": "C:\\Users\\Marcello\\.nuget\\packages\\",
+      "outputPath": "D:\\Documentos\\GitHub\\gitglobal\\POCSenado01\\.local"
     },
     "frameworks": {
       "net461": {
