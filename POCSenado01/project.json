@@ -10,10 +10,9 @@
   },
   "schemaVersion": "3.2",
   "studioVersion": "19.4.2.0",
-  "projectVersion": "1.0.0",
+  "projectVersion": "1.0.7068.29055",
   "runtimeOptions": {
     "autoDispose": false,
-    "isPausable": true,
     "excludedLoggedData": [
       "Private:*",
       "*password*"
@@ -24,5 +23,8 @@
     "includeOriginalXaml": false,
     "privateWorkflows": []
   },
-  "webServices": []
+  "arguments": {
+    "input": [],
+    "output": []
+  }
 }
